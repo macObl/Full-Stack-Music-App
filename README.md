@@ -5,6 +5,10 @@ Developed a collaborative music playing app using Django and React that integrat
 
 To start the web server you need to run the following sequence of commands.
 
+Install Django.
+```bash
+python pip install Django
+```
 Run the django web server.
 ```bash
 python manage.py runserver
@@ -18,7 +22,7 @@ cd frontend
 ```
 Next install all dependicies.
 ```bash
-npm i
+npm i babel-loader react react-dom terser-webpack-plugin webpack --save
 ```
 
 ### Compile the Front-End
